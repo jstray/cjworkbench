@@ -25,8 +25,14 @@ body {
 }
 
 header {
-  padding: 1.5rem 3rem;
-  border-bottom: 1px solid $item-border;
+  padding: 1.5rem 0rem;
+  border-bottom: 1px solid $brand-learn;
+
+  .header-container {
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 
   h1 {
     @include font-sans-bold;
@@ -61,7 +67,7 @@ section {
    *
    * Short-term, we're stuck with a somewhat-thin page.
    */
-  max-width: 48rem;
+  max-width: 65rem;
   margin: 2.5rem auto;
   padding: 0 1rem;
 }
